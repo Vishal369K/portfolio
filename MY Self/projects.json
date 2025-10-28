@@ -1,0 +1,298 @@
+[
+    {
+      "id": "ats-2",
+      "duration":"working on this ",
+      "title": "ATS 2.0: Context-Aware Resume Analyzer with Verification Engine ",
+      "techStack": [
+        "Python",
+        "Transformers (BERT/SBERT)",
+        "BeautifulSoup",
+        "Selenium",
+        "Flask",
+        "PostgreSQL"
+      ],
+      "image": "assets/img/portfolio/app-1.jpg",
+      "problem": "Traditional ATS tools rely only on keyword matching and fail to understand context or verify resume data.",
+      "solution": "Developed a smart ATS that uses NLP to semantically understand job descriptions, parse resumes, and verify claims using web scraping.",
+      "category": "Recruitment Tech / NLP - Flagship & High-Impact Project",
+      "role": "Designed the architecture, implemented NLP-based matching, built scraping logic and UI, and deployed scoring/verification engine.",
+      "tools": [
+        "NLP",
+        "Web Scraping",
+        "Resume Parsing",
+        "Semantic Analysis",
+        "Flask",
+        "APIs"
+      ]
+    },
+    {
+      "id": "guardian-ai",
+      "duration":"working on this",
+      "title": "GuardianAI: Age & Nudity Detection for Safer Social Media ",
+      "techStack": [
+        "Python",
+        "OpenCV",
+        "CNN",
+        "Deep Learning",
+        "Flask"
+      ],
+      "image": "assets/img/portfolio/app-2.jpg",
+      "problem": "Minors can bypass age restrictions online and access explicit content.",
+      "solution": "Built a model to estimate age from images and detect nudity, preventing underaged access to unsafe content.",
+      "category": "Ethical AI / Computer Vision - Flagship & High-Impact Project",
+      "role": "Built and trained CNN model, developed age-estimation logic, created detection dashboard.",
+      "tools": [
+        "CNN",
+        "Image Classification",
+        "OpenCV",
+        "Ethical AI"
+      ]
+    },
+    {
+      "id": "road-ai",
+      "duration":"Aug 2024 – Oct 2024",
+      "title": "Real-Time Road Damage Detection System",
+      "techStack": [
+        	"Python", "OpenCV", "TensorFlow/Keras",
+"YOLOv5 for object detection",
+"Flask for web deployment",
+"Arduino + Camera module (optional for live feed)",
+"Google Colab","Jupyter Notebook"
+
+      ],
+      "image": "assets/img/portfolio/app-3.jpg",
+      "problem": "Manual road inspection is time-consuming, expensive, and often inefficient. Detecting potholes and surface cracks quickly is essential to prevent accidents, reduce maintenance costs, and improve urban infrastructure",
+      "solution": "Implemented a real-time detection system using image classification to identify types of road damage.",
+      "Approach":[
+      "Trained YOLOv5 on a custom dataset of damaged roads.",
+      "Integrated a live camera feed module for real-time monitoring.",
+      "Built a Flask-based interface for user interaction and live detection visualization.",
+      "Designed potential IoT integration using Arduino for smart city scalability."
+],
+      "category": "Computer Vision / Public Infrastructure",
+      "role": "Developed the CV model, labeled dataset, deployed UI for road analysis.",
+      "tools": [
+        "Deep Learning",
+        "Computer Vision",
+        "TensorFlow",
+        "OpenCV"
+      ]
+    },
+    {
+      "id": "fitmail-ai",
+      "duration":"May 2024 – July 2024",
+      "title": "AI-Powered Fitness Tracker & Email Automation System",
+      "techStack": [
+        "Python","OpenCV","MediaPipe",
+"SMTP (email automation)","Pandas","NumPy",
+"Matplotlib/Seaborn (visual feedback charts)"
+,"SQLite (lightweight user data storage)"
+      ],
+      "image": "assets/img/portfolio/books-1.jpg",
+      "problem": "Most home fitness apps lack real-time form analysis, rep counting, and personalized feedback. There's also a gap in automated reporting and exercise+diet recommendations based on age, gender, and experience.",
+      "solution": "Used webcam + MediaPipe to count reps, classify users, and send personalized workout and diet feedback via email.",
+      "Approach":[
+      "Uses MediaPipe to detect and analyze body posture via webcam.",
+      "Accurately counts push-ups, squats, bicep curls (2kg), and plank duration using keypoint movement tracking.",
+      "Classifies users by age group (7–50 yrs), gender, and fitness level (beginner/experienced).",
+      "Automatically generates customized feedback reports with:",
+      "Rep counts and performance scores","Diet suggestions (veg/non-veg options)","Recommended exercises & improvement tips",
+"Sends detailed feedback directly via automated emails with visual charts and suggestions."
+],
+      "category": "Health Tech / Computer Vision",
+      "role": "Implemented body tracking logic, trained classifiers, developed email automation and feedback system.",
+      "tools": [
+        "OpenCV",
+        "MediaPipe",
+        "Fitness Tracking",
+        "Email Automation"
+      ]
+    },
+    {
+      "id": "smartboard-ai",
+      "duration":"Nov 2024 – Dec 2024",
+      "title": "SmartBoard AI: Real-Time Equation Solver & Voice-Assisted Documentation",
+      "techStack": [
+        "Python",
+        "OpenCV",
+        "Tesseract",
+        "SpeechRecognition",
+        "Flask"
+      ],
+      "image": "assets/img/portfolio/books-3.jpg",
+      "problem": "Teachers and presenters need tools to capture and document math lectures live.",
+      "solution": "AI model recognizes equations via webcam, solves them, and transcribes voice input into documentation.",
+      "Approach":[
+      "Built SmartBoard AI, a real-time system that:",
+      "1.Uses OCR and computer vision to extract handwritten or printed equations from a whiteboard or screen.",
+      "2.Parses and solves the equations (algebra, calculus, matrices) using symbolic math libraries.",
+      "3.Allows the user to speak annotations or explanations, which get converted to text and appended to the solution document.",
+      "4.Automatically compiles everything into a neatly formatted PDF report for sharing.",
+      "Workflow:Camera Feed → Image Capture → OpenCV → Equation Parsing → Solver → Voice Notes → Auto PDF Save"
+],
+      "category": "EduTech / Computer Vision / Voice AI",
+      "role": "Designed and trained model, integrated OCR and voice-to-text pipeline.",
+      "tools": [
+        "OpenCV","Symbolic Math (SymPy, Mathpix, LaTeX parser)","Speech-to-Text (Google API)","Text-to-Speech (gTTS, pyttsx3)","PDF generation (ReportLab / LaTeX)","GUI development (Tkinter / Streamlit)","Real-time data flow","edge case handling"
+      ]
+    },
+    {
+      "id": "face-mask-detection",
+      "duration":"Jan 2024 – Feb 2024",
+      "title": "Face Mask Detection Using Convolutional Neural Networks (CNN)",
+      "techStack": [
+        "Python",
+        "CNN",
+        "Keras",
+        "OpenCV"
+      ],
+      "image": "assets/img/portfolio/books-2.jpg",
+      "problem": "During pandemics like COVID-19, monitoring mask compliance in public areas is crucial. Manual monitoring is inefficient, prone to errors, and not scalable.",
+      "solution": "Created a CNN-based model to detect whether a person is wearing a mask using webcam input.",
+      "Approach":["Built a deep learning-based computer vision system to detect whether a person is wearing a face mask or not in real-time:",
+"Collected and preprocessed a balanced dataset of masked and unmasked faces.",
+"Designed and trained a custom CNN model from scratch for binary image classification.",
+"Achieved high accuracy using data augmentation and tuning.",
+"Integrated the model with OpenCV to enable live detection via webcam, highlighting faces with labels (Mask / No Mask).",
+"Optional integration for IoT-based alert systems (buzzers/counters)."
+],
+      "category": "Healthcare / CV",
+      "role": "Trained CNN model, built live detection interface with webcam.",
+      "tools": [
+        "CNN",
+        "Image Classification",
+        "Real-time Detection"
+      ]
+    },
+    {
+      "id": "fake-news-detector",
+      "duration":"Mar 2024 – Apr 2024",
+      "title": "Fake News Detection",
+      "techStack": [
+        "Python",
+        "NLP",
+        "Scikit-learn",
+        "Flask"
+      ],
+      "image": "assets/img/portfolio/branding-3.jpg",
+      "problem": "Misinformation is spreading rapidly on digital platforms, impacting society.",
+      "solution": "Developed a classifier that detects fake news using NLP techniques and vectorization methods.",
+      "category": "NLP / Social Awareness",
+      "role": "Handled dataset cleaning, model training, UI development and testing.",
+      "tools": [
+        "Text Classification",
+        "NLP",
+        "TF-IDF",
+        "Logistic Regression"
+      ]
+    },
+    {
+      "id": "rainfall-prediction",
+      "duration":"Jun 2024 – Jul 2024",
+      "title": "Rainfall Prediction using Cloud Images",
+      "techStack": [
+        "Python",
+        "CNN",
+        "Matplotlib",
+        "OpenCV"
+      ],
+      "image": "assets/img/portfolio/books-3.jpg",
+      "problem": "Weather predictions based on satellite data can be slow and inaccurate.",
+      "solution": "Trained CNN on cloud pattern images to predict likelihood of rainfall.",
+      "category": "Weather / Remote Sensing",
+      "role": "Created dataset pipeline, trained model, visualized predictions.",
+      "tools": [
+        "CNN",
+        "Image Recognition",
+        "Data Visualization"
+      ]
+    },
+    {
+      "id": "satellite-kmeans",
+      "duration":"Apr 2024 – May 2024",
+      "title": "Satellite Image Analysis using K-Means",
+      "techStack": [
+        "Python",
+        "K-Means",
+        "OpenCV",
+        "Scikit-learn"
+      ],
+      "image": "assets/img/portfolio/books-1.jpg",
+      "problem": "There is a need to analyze land-use changes due to human activities over time.",
+      "solution": "Compared satellite images from different years using K-means clustering to detect human-induced changes.",
+      "category": "Geospatial Analysis / ML",
+      "role": "Processed image data, applied K-means, visualized land change differences.",
+      "tools": [
+        "Image Clustering",
+        "Unsupervised Learning",
+        "Satellite Data Analysis"
+      ]
+    },
+    {
+      "id": "sentinel-vision",
+      "duration":"Jul 2024 – Aug 2024",
+      "title": "SentinelVision: AI-Powered Human Detection for Crisis and Security",
+      "techStack": [
+        "Python",
+        "YOLOv5",
+        "OpenCV",
+        "Flask"
+      ],
+      "image": "assets/img/portfolio/books-2.jpg",
+      "problem": "Need for accurate human detection during crisis situations (disaster, intrusion, etc).",
+      "solution": "Developed a YOLO-based human detector for surveillance and rescue missions in real-time.",
+      "category": "Surveillance / Security AI - Flagship & High-Impact Project",
+      "role": "Trained YOLOv5 on thermal/camera footage, implemented live object detection module.",
+      "tools": [
+        "YOLO",
+        "Real-time Detection",
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "speech-translator",
+      "duration":"Aug 2024 – Sept 2024",
+      "title": "Speech-to-Text & Multilingual Translation",
+      "techStack": [
+        "Python",
+        "SpeechRecognition",
+        "Google Translate API",
+        "gTTS"
+      ],
+      "image": "assets/img/portfolio/app-2.jpg",
+      "problem": "Language barriers limit accessibility and communication across India.",
+      "solution": "Converted speech to text and translated it into 14+ regional Indian languages in real-time.",
+      "category": "Voice AI / Regional Inclusion - Flagship & High-Impact Project",
+      "role": "Integrated voice recognition with translation pipeline, created multilingual feedback interface.",
+      "tools": [
+        "Speech-to-Text",
+        "Translation",
+        "Multilingual NLP"
+      ]
+    },
+    {
+      "id": "loan-status-prediction",
+      "duration":"Jul 2024 – Aug 2024",
+      "title": "Loan Status Prediction",
+      "techStack": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "Matplotlib",
+        "Flask"
+      ],
+      "image": "assets/img/portfolio/app-3.jpg",
+      "problem": "Loan providers face difficulty in quickly and accurately determining whether a loan applicant is likely to repay or default.",
+      "solution": "Built a machine learning model to predict loan approval status based on applicant details like income, credit history, employment, etc.",
+      "category": "Finance / Machine Learning",
+      "role": "Cleaned and preprocessed data, implemented and tuned ML models, developed front-end form for user input, integrated the model with Flask.",
+      "tools": [
+        "Classification",
+        "Data Preprocessing",
+        "Model Evaluation",
+        "Flask Deployment"
+      ]
+    }
+  ]
+  
